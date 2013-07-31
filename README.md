@@ -6,12 +6,22 @@ and server on the PC. After inputting the authentication key set by the the serv
 of menus is opened in both server and client screen. User can select particular command from the menu and execute 
 it by giving  the voice inputs on the application. The corresponding functionality is performed on the pc.
 
+Usage
+=====
+
+This application can be used to:
+* Open almost all application on the Laptop or Copmputer with the help of Vocie inputs on the android phone.
+* Efficient and fast automatic text typing in the documents by speaking the content on the phone.
+* Operating any applciation with the help of phone.
+* Browsing the internet, openeing the browser, entering a specific website and surfing further.
+* Chatting and log creation in case of multiple clients.
+
 INSTALL AND RUN
 ===============
 
 Server:
 -------
-* Import the project named "server" in eclipse (any version) 
+* Import the project named "server" in eclipse. 
 * Run the java class "server1.java", Run it as Java Application .
 * A JavaFrame will open. Click on "Run Server" button.
 * Set the "Authentication Key" in the text box.
@@ -28,6 +38,18 @@ Client:
 * Click on the Button on top of the screen to input the voice commands.
 * Speak any command from the list of commands like "Open Notepad , Open Music Folder etc".
 
+Requirements
+============
+
+Run
+---
+Wifi Connection, Pc, Android phone.
+
+Code
+----
+* JDK (1.5 or above).
+* Android Phone or SDK version 2.2 or above.
+* Eclipe(optional) to run java.
 
 List Of Commands
 ================
@@ -36,6 +58,7 @@ List Of Commands
 * Open Music Folder
 * Open Video Folder
 * Open Browser
+* Open Calculator
 * Open Command Prompt
 * Play Audio Or Video
 * Open Word Pad
@@ -44,3 +67,17 @@ List Of Commands
 * Sticky Notes
 * Open Microsoft Access
 * Open Microsoft Outlook
+* Open Microsoft Power Point
+* Open Microsoft Word
+* Open Note
+* Open Excel
+* Open Picasa
+* Shut Down
+
+Note: Some commands are universal like "open notepad/open microsoft word/open powerpoint/open paint/
+shutdown/open command prompt/open outlook/open Excel/open wordpad/open note/open calculator". You do 
+need to change the paths in the server file. However for soma commands like "open browser/open music folder/
+open video folder/open picasa", you need to update the specific pathsof the corresponding applications in the server 
+file (RunnableClass.java).
+  for music and audio files, change the names and paths of specific audio or video files in the file. 
+
