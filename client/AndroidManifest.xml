@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest 
+    
+    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.shaz"
+      android:versionCode="1"
+      android:versionName="1.0">
+      
+     <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+    <application android:label="Voice Controller" 
+            >
+             <activity android:name=".commands"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.shaz.commands" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".keysend"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.shaz.hello1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity android:name=".Main"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.shaz.hello" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+          <activity android:name=".writing"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.shaz.writing" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity android:name=".notewrite"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.shaz.notewrite" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Audioplay"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.shaz.audioplay" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".first"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".audio"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.shaz.audio1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".notepad"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.shaz.notepad" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".error"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.shaz.error1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>
