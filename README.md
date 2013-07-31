@@ -35,3 +35,12 @@ List Of Commands
 * Open Notepad
 * Open Music Folder
 * Open Video Folder
+* Open Browser
+* Open Command Prompt
+* Play Audio Or Video
+* Open Word Pad
+* Set Volume
+* Open Paint
+* Sticky Notes
+* Open Microsoft Access
+* Open Microsoft Outlook
