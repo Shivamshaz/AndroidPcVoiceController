@@ -6,15 +6,15 @@ and server on the PC. After inputting the authentication key set by the the serv
 of menus is opened in both server and client screen. User can select particular command from the menu and execute 
 it by giving  the voice inputs on the application. The corresponding functionality is performed on the pc.
 
-INSTALL
-=======
+INSTALL AND RUN
+===============
 
 Server:
 -------
 * Import the project named "server" in eclipse (any version) 
 * Run the java class "server1.java", Run it as Java Application .
 * A JavaFrame will open. Click on "Run Server" button.
-* Set thr "Authenticated Key" in the text box.
+* Set the "Authentication Key" in the text box.
 
 Client:
 -------
@@ -27,3 +27,11 @@ Client:
 * Enter the "Authenticated Key" as shown by the server in the textbox of application.
 * Click on the Button on top of the screen to input the voice commands.
 * Speak any command from the list of commands like "Open Notepad , Open Music Folder etc".
+
+
+List Of Commands
+================
+
+* Open Notepad
+* Open Music Folder
+* Open Video Folder
