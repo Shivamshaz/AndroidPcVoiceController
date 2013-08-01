@@ -8,7 +8,8 @@ public class Fun{
 			shaz=new Robot();
 			shaz.setAutoDelay(100);
 			char ch;
-			int i=0,len=0;
+			int i=0;
+			int len=0;
 			String textz=hello;
 			len=textz.length();
 			if(textz.indexOf(".")!=-1)
