@@ -74,21 +74,24 @@ public void run(){
 			else if(flag==1){
 			dataInputStream=new DataInputStream(socket.getInputStream());
 			s1=dataInputStream.readUTF();
+			
 			String s4="vid";
 			String s5="notepad";
 			String s6="lib";
 			String s7="calculator";
 			String s8="browser";
 			String s9="cmd";
-			String s10="session";
-			String s11="black";
-			String s12="number";
-			String s13="fall";
+			
+			//change the following String values to the name of the .mp3 files located in your music folder
+			String s10="party rock anthem";
+			String s11="fade to black";
+			String s12="in the end";
+			String s13="higher by creed";
 			String s14="higher";
-			String s15="bullet";
+			String s15="bullets from the shield";
 			String s16="catalyst";
 			String s17="crawl";
-			String s18="rain";
+			String s18="rain in the deep";
 			String s19="papercut";
 			String s20="letters from the sky";
 			String s21="metallica";
@@ -99,6 +102,8 @@ public void run(){
 			String s26="wild ones";
 			String s27="world";
 			String s28="linkin park";
+			
+			//comment any of the following String which you do not want to use
 			String s29="wordpad";
 			String s32="setvol";
 			String s34="paint";
@@ -114,6 +119,8 @@ public void run(){
 			String s44="excel";
 			String s45="picasa";
 			
+			///change the path locations in the similar manner corresponding to your directories
+			//some paths may be default,need not to be changed! 
 			if(s1.equalsIgnoreCase(s20)){Runtime.getRuntime().exec("C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe \"E:\\video\\letters from the sky.flv\"")}
 			else if(s1.equalsIgnoreCase(s21)){Runtime.getRuntime().exec("C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe \"E:\\video\\metallica.mp4\"")}
 			else if(s1.equalsIgnoreCase(s22)){Runtime.getRuntime().exec("C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe \"E:\\video\\bad day.flv\"")}
