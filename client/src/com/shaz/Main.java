@@ -1,3 +1,8 @@
+/* Client Main File
+*  Copyright 2013 Shivam Bansal (www.shivambansal.com)
+*  Version 0.1
+*/
+
 package com.shaz;
 import android.app.Activity;
 import android.os.Bundle;
@@ -68,4 +73,86 @@ public class Main extends Activity{
 				Intent i=new Intent("com.shaz.notepad");
 				i.putExtra("id","lib");startActivity(i)
 				}
-			else if(m.toUpperCase().equals("OPEN VIDEO FOLDER")){Intent i=new Intent("com.shaz.notepad");i.putExtra("id","vid");startActivity(i)}else if(m.toUpperCase().equals("OPEN WORD PAD")){Intent i=new Intent("com.shaz.notepad");i.putExtra("id","wordpad");startActivity(i)}else if(m.toUpperCase().equals("SET VOLUME")){Intent i=new Intent("com.shaz.audio1");i.putExtra("id","setvol");startActivity(i)}else if(m.toUpperCase().equals("OPEN PAINT")){Intent i=new Intent("com.shaz.audio1");i.putExtra("id","paint");startActivity(i)}else if(m.toUpperCase().equals("SNIPING TOOL")){Intent i=new Intent("com.shaz.audio1");i.putExtra("id","sntool");startActivity(i)}else if(m.toUpperCase().equals("SOUND RECORDER")){Intent i=new Intent("com.shaz.audio1");i.putExtra("id","record");startActivity(i)}else if(m.toUpperCase().equals("STICKY NOTES")){Intent i=new Intent("com.shaz.notepad");i.putExtra("id","sticky");startActivity(i)}else if(m.toUpperCase().equals("OPEN MICROSOFT ACCESS")){Intent i=new Intent("com.shaz.audio1");i.putExtra("id","access");startActivity(i)}else if(m.toUpperCase().equals("OPEN MICROSOFT OUTLOOK")){Intent i=new Intent("com.shaz.audio1");i.putExtra("id","outlook");startActivity(i)}else if(m.toUpperCase().equals("OPEN MICROSOFT POWER POINT")){Intent i=new Intent("com.shaz.audio1");i.putExtra("id","ppt");startActivity(i)}else if(m.toUpperCase().equals("OPEN MICROSOFT WORD")){Intent i=new Intent("com.shaz.notepad");i.putExtra("id","msword");startActivity(i)}else if(m.toUpperCase().equals("SHUT DOWN")){Intent i=new Intent("com.shaz.audio1");i.putExtra("id","shutdown");startActivity(i)}else if(m.toUpperCase().equals("OPEN NOTE")){Intent i=new Intent("com.shaz.audio1");i.putExtra("id","onenote");startActivity(i)}else if(m.toUpperCase().equals("OPEN EXCEL")){Intent i=new Intent("com.shaz.audio1");i.putExtra("id","excel");startActivity(i)}else if(m.toUpperCase().equals("OPEN PICASA")){Intent i=new Intent("com.shaz.audio1");i.putExtra("id","picasa");startActivity(i)}else{startActivity(new Intent("com.shaz.error1"))}}super.onActivityResult(requestCode,resultCode,data)}}
+			else if(m.toUpperCase().equals("OPEN VIDEO FOLDER")){
+				Intent i=new Intent("com.shaz.notepad");
+				i.putExtra("id","vid");startActivity(i)
+				}
+			else if(m.toUpperCase().equals("OPEN WORD PAD")){
+				Intent i=new Intent("com.shaz.notepad");
+				i.putExtra("id","wordpad");
+				startActivity(i)
+				}
+			else if(m.toUpperCase().equals("SET VOLUME")){
+				Intent i=new Intent("com.shaz.audio1");
+				i.putExtra("id","setvol");
+				startActivity(i)
+				}
+			else if(m.toUpperCase().equals("OPEN PAINT"))
+				{
+				Intent i=new Intent("com.shaz.audio1");
+				i.putExtra("id","paint");
+				startActivity(i)
+				}
+			else if(m.toUpperCase().equals("SNIPING TOOL")){
+				Intent i=new Intent("com.shaz.audio1");
+				i.putExtra("id","sntool");startActivity(i)
+				}
+			else if(m.toUpperCase().equals("SOUND RECORDER"))
+				{
+				Intent i=new Intent("com.shaz.audio1");
+				i.putExtra("id","record");
+				startActivity(i)
+				}
+			else if(m.toUpperCase().equals("STICKY NOTES"))
+				{
+				Intent i=new Intent("com.shaz.notepad");
+				i.putExtra("id","sticky");
+				startActivity(i)
+				}
+			else if(m.toUpperCase().equals("OPEN MICROSOFT ACCESS")){
+				Intent i=new Intent("com.shaz.audio1");
+				i.putExtra("id","access");
+				startActivity(i)
+				}
+			else if(m.toUpperCase().equals("OPEN MICROSOFT OUTLOOK")){
+				Intent i=new Intent("com.shaz.audio1");
+				i.putExtra("id","outlook");
+				startActivity(i)
+				}
+			else if(m.toUpperCase().equals("OPEN MICROSOFT POWER POINT")){
+				Intent i=new Intent("com.shaz.audio1");
+				i.putExtra("id","ppt");
+				startActivity(i)
+				}
+			else if(m.toUpperCase().equals("OPEN MICROSOFT WORD")){
+				Intent i=new Intent("com.shaz.notepad");
+				i.putExtra("id","msword");
+				startActivity(i)
+				}
+			else if(m.toUpperCase().equals("SHUT DOWN")){
+				Intent i=new Intent("com.shaz.audio1");
+				i.putExtra("id","shutdown");
+				startActivity(i)
+				}
+			else if(m.toUpperCase().equals("OPEN NOTE")){
+				Intent i=new Intent("com.shaz.audio1");
+				i.putExtra("id","onenote");
+				startActivity(i)
+				}
+			else if(m.toUpperCase().equals("OPEN EXCEL")){
+				Intent i=new Intent("com.shaz.audio1");
+				i.putExtra("id","excel");
+				startActivity(i)
+				}
+			else if(m.toUpperCase().equals("OPEN PICASA")){
+				Intent i=new Intent("com.shaz.audio1");
+				i.putExtra("id","picasa");
+				startActivity(i)
+				}
+			else {
+				startActivity(new Intent("com.shaz.error1"))
+			     }
+				}
+				super.onActivityResult(requestCode,resultCode,data)
+				}
+				}
