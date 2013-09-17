@@ -1,3 +1,8 @@
+/* Automated Text Typeing File
+*  Copyright 2013 Shivam Bansal (www.shivambansal.com)
+*  Version 0.1
+*/
+
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
 public class Fun{
