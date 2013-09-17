@@ -1,3 +1,8 @@
+/* Java Threading File to run and execute functionalites by the server
+*  Copyright 2013 Shivam Bansal (www.shivambansal.com)
+*  Version 0.1
+*/
+
 import java.awt.Desktop;
 import java.io.DataInputStream;
 import java.io.File;
