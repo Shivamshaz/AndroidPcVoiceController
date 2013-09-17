@@ -1,6 +1,13 @@
+
+/* Server GUI File
+*  Copyright 2013 Shivam Bansal (www.shivambansal.com)
+*  Version 0.1
+*/
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
-import java.io.File;import java.io.BufferedReader;
+import java.io.File;
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.InetAddress;
@@ -9,7 +16,7 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import javax.swing.*;
 import java.awt.BorderLayout;i
-mport java.awt.Color;
+import java.awt.Color;
 import java.awt.GridLayout;
 import java.awt.TextArea;
 import java.awt.event.ActionListener;
