@@ -1,3 +1,8 @@
+/* Client text File
+*  Copyright 2013 Shivam Bansal (www.shivambansal.com)
+*  Version 0.1
+*/
+
 package com.shaz;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
